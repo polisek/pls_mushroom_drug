@@ -6,12 +6,12 @@ description 'Polisek scripts'
 
 client_script {
 	'client/client.lua',
-	'client/npc.lua',
 	'config.lua'
 }
 
 server_script {
 	'server/server.lua',
+	'config.lua'
 }
 
 lua54 'yes'
